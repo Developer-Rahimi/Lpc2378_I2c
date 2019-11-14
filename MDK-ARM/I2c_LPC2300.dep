@@ -1,3 +1,0 @@
-Dependencies for Project 'I2c', Target 'LPC2300': (DO NOT MODIFY !)
-F (.\LPC2300.s)(0x4BB1D016)(--cpu ARM7TDMI -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\Philips" --list "LPC2300.lst" --xref -o "LPC2300.o")
-F (..\User\main.c)(0x5DC8699A)()

@@ -1,0 +1,25 @@
+*** Creating Trace Output File '.\Obj\I2c.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\lpc2300.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\i2c.o"'
+### List of Objects: adding '".\obj\delay.o"'
+### List of Objects: adding '".\obj\serial.o"'
+### List of Objects: adding '".\obj\gpio.o"'
+### List of Objects: adding '".\obj\eeprom.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI ".\obj\lpc2300.o" ".\obj\main.o" ".\obj\i2c.o" ".\obj\delay.o" ".\obj\serial.o" ".\obj\gpio.o" ".\obj\eeprom.o" --strict --scatter ".\Obj\I2c.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\I2c.map" -o ".\Obj\I2c.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\I2c.axf'
+### ADS-LD Command File: '.\Obj\I2c.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\I2c.lnp', Handle=0x0000058C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\I2c.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

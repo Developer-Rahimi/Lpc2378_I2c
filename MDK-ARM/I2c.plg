@@ -7,3 +7,862 @@ D:\Lpc2378\I2C\MDK-ARM\I2c.uvproj
 Project File Date:  11/10/2019
 
 <h2>Output:</h2>
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(1): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:   #include "I.h"
+..\User\I2C.c:                 ^
+..\User\I2C.c(1): error:  #5: cannot open source input file "I.h": No such file or directory
+..\User\I2C.c:   #include "I.h"
+..\User\I2C.c:                 ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(1): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:   #include "I2C.h"
+..\User\I2C.c:                   ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 0 errors
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 1 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(3): error:  #20: identifier "PINSEL1" is undefined
+..\User\I2C.c:                  PINSEL1  &= ~0x03C00000;                           // I2C0 pins SDA (P0.27) and SCL (P0.28)
+..\User\I2C.c:                  ^
+..\User\I2C.c(6): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:    }
+..\User\I2C.c:     ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(7): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:    }
+..\User\I2C.c:     ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 0 errors
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 1 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1036 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(7): error:  #20: identifier "I2ADR" is undefined
+..\User\I2C.c:                  I2ADR=0xc2;
+..\User\I2C.c:                  ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(32): error:  #20: identifier "arry" is undefined
+..\User\I2C.c:         I21DAT = arry[index++]; // Write condition for TC1312 = 0x00 Write data to TX register
+..\User\I2C.c:                  ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(8): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(11): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(27): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:         I21DAT = I2CAddress;//&0x7f; // Send address and write bit '0'
+..\User\I2C.c:                  ^
+..\User\I2C.c(33): error:  #20: identifier "arry" is undefined
+..\User\I2C.c:         I21DAT = arry[index++]; // Write condition for TC1312 = 0x00 Write data to TX register
+..\User\I2C.c:                  ^
+..\User\I2C.c(34): error:  #20: identifier "I2Counter" is undefined
+..\User\I2C.c:         I2Counter--;
+..\User\I2C.c:         ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 7 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(22): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:         I21DAT = I2CAddress;//&0x7f; // Send address and write bit '0'
+..\User\I2C.c:                  ^
+..\User\I2C.c(28): error:  #20: identifier "arry" is undefined
+..\User\I2C.c:         I21DAT = arry[index++]; // Write condition for TC1312 = 0x00 Write data to TX register
+..\User\I2C.c:                  ^
+..\User\I2C.c(29): error:  #20: identifier "I2Counter" is undefined
+..\User\I2C.c:         I2Counter--;
+..\User\I2C.c:         ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 7 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(22): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:         I21DAT = I2CAddress;//&0x7f; // Send address and write bit '0'
+..\User\I2C.c:                  ^
+..\User\I2C.c(28): error:  #20: identifier "arry" is undefined
+..\User\I2C.c:         I21DAT = arry[index++]; // Write condition for TC1312 = 0x00 Write data to TX register
+..\User\I2C.c:                  ^
+..\User\I2C.c(29): error:  #20: identifier "I2Counter" is undefined
+..\User\I2C.c:         I2Counter--;
+..\User\I2C.c:         ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 7 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                  ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(unsigned char Addr)��;
+..\User\I2C.h:                                                   ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                         ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                         ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                          ^
+..\User\main.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c:   {
+..\User\main.c:   ^
+..\User\main.c: ..\User\main.c: 1 warning, 3 errors
+compiling I2C.c...
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                         ^
+..\User\I2C.h(4): error:  #130: expected a "{"
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                         ^
+..\User\I2C.h(4): error:  #7: unrecognized token
+..\User\I2C.h:   extern void I2CTransferByte(char Addr)��;
+..\User\I2C.h:                                          ^
+..\User\I2C.c(6): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\I2C.c:   {
+..\User\I2C.c:   ^
+..\User\I2C.c(7): error:  #20: identifier "I2CAddress" is undefined
+..\User\I2C.c:   I2CAddress = Addr; // Place address and data in Globals to be used by  the interrupt
+..\User\I2C.c:   ^
+..\User\I2C.c(76): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 2 warnings, 4 errors
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(79): warning:  #1-D: last line of file ends without a newline
+..\User\I2C.c:     */
+..\User\I2C.c:       ^
+..\User\I2C.c: ..\User\I2C.c: 1 warning, 0 errors
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 1 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(19): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR (void)      __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(19): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 5 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR (void)      __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\main.c(6): error:  #20: identifier "I2CISR" is undefined
+..\User\main.c:       VICVectAddr19  = (unsigned long)I2CISR;        // Set Interrupt Vector
+..\User\main.c:                                       ^
+..\User\main.c: ..\User\main.c: 0 warnings, 1 error
+compiling I2C.c...
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(19): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR (void)  __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(19): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR(void) __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR(void) __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR(void) __irq                                           //I2C interrupt routine
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2CISR(void) __irq
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+I2c.axf: Error: L6218E: Undefined symbol I2CISR (referred from main.o).
+I2c.axf: Not enough information to list image symbols.
+I2c.axf: Not enough information to list the image map.
+I2c.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(54): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:    void I2CISR(void) __irq {
+..\User\I2C.c:         ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(54): error:  #147-D: declaration is incompatible with "void I2C_IRQ(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:    void I2C_IRQ(void) __irq {
+..\User\I2C.c:         ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(54): error:  #147-D: declaration is incompatible with "void I2C_IRQ(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void I2C_IRQ(void) __irq {
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   __irq void I2CISR(void)
+..\User\I2C.c:              ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void I2CISR(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   __irq void I2CISR(void)
+..\User\I2C.c:              ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+I2c.axf: Error: L6218E: Undefined symbol I2CISR (referred from main.o).
+I2c.axf: Not enough information to list image symbols.
+I2c.axf: Not enough information to list the image map.
+I2c.axf: Finished: 2 information, 0 warning and 1 error messages.
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\main.c(6): error:  #20: identifier "I2CISR" is undefined
+..\User\main.c:       VICVectAddr19  = (unsigned long)I2CISR;        // Set Interrupt Vector
+..\User\main.c:                                       ^
+..\User\main.c: ..\User\main.c: 0 warnings, 1 error
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void IRQ_I2C(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void IRQ_I2C (void) __irq
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(12): error:  #147-D: declaration is incompatible with "void IRQ_I2C(void)" (declared at line 6 of "..\User\I2C.h")
+..\User\I2C.c:   void IRQ_I2C (void) __irq
+..\User\I2C.c:        ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=848 RO-data=16 RW-data=0 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\main.c(5): warning:  #223-D: function "I2CInit" declared implicitly
+..\User\main.c:         I2CInit();
+..\User\main.c:         ^
+..\User\main.c: ..\User\main.c: 1 warning, 0 errors
+compiling I2C.c...
+linking...
+Program Size: Code=1376 RO-data=32 RW-data=16 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 1 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1376 RO-data=32 RW-data=16 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+..\User\I2C.c(64): error:  #65: expected a ";"
+..\User\I2C.c:    }
+..\User\I2C.c:    ^
+..\User\I2C.c: ..\User\I2C.c: 0 warnings, 1 error
+Target not created
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=16 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1452 RO-data=32 RW-data=16 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1496 RO-data=32 RW-data=16 ZI-data=1384  
+"I2c.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'I2c'
+   deleting intermediate output files for target 'LPC2300'
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1496 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1480 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+compiling I2C.c...
+linking...
+Program Size: Code=1492 RO-data=32 RW-data=16 ZI-data=1384  
+FromELF: creating hex file...
+".\Obj\I2c.axf" - 0 Error(s), 0 Warning(s).
+Build target 'LPC2300'
+assembling LPC2300.s...
+compiling main.c...
+..\User\main.c(6): error:  #20: identifier "I2C0SCLL" is undefined
+..\User\main.c:         I2C0SCLL=50;
+..\User\main.c:         ^
+..\User\main.c(7): error:  #20: identifier "I2C0SCLH" is undefined
+..\User\main.c:         I2C0SCLH=50;
+..\User\main.c:         ^
+..\User\main.c(9): error:  #20: identifier "I2C0CONCLR" is undefined
+..\User\main.c:         I2C0CONCLR=0xFF;
+..\User\main.c:         ^
+..\User\main.c(11): error:  #20: identifier "I2C0CONSET" is undefined
+..\User\main.c:         I2C0CONSET=0x40;
+..\User\main.c:         ^
+..\User\main.c: ..\User\main.c: 0 warnings, 4 errors
+compiling I2C.c...
+Target not created
